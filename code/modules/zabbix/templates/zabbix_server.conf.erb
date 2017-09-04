@@ -1,0 +1,28 @@
+
+LogFile=/var/log/zabbix/zabbix_server.log
+
+LogFileSize=0
+
+PidFile=/var/run/zabbix/zabbix_server.pid
+
+SocketDir=/var/run/zabbix
+
+DBName=<%= @database %>
+
+DBUser=<%= @user %>
+
+DBPassword=<%= @user_pass %>
+
+StartPingers=5
+
+SNMPTrapperFile=/var/log/snmptrap/snmptrap.log
+
+CacheSize=32M
+
+Timeout=4
+
+AlertScriptsPath=/usr/lib/zabbix/alertscripts
+
+ExternalScripts=/usr/lib/zabbix/externalscripts
+
+LogSlowQueries=3000

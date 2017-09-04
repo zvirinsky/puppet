@@ -1,0 +1,6 @@
+profile::zabbix::server::database: zabbix
+profile::zabbix::server::user: zabbix
+profile::zabbix::server::user_pass: Zabbix_2017
+profile::zabbix::server::grant: ALL
+profile::zabbix::client::server_ip: 192.168.56.200
+
